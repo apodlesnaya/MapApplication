@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "658872493014",
+    "firebase_url": "https://mapapplication-8829b.firebaseio.com",
+    "project_id": "mapapplication-8829b",
+    "storage_bucket": "mapapplication-8829b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658872493014:android:3208925d2de7a5f2",
+        "android_client_info": {
+          "package_name": "com.example.podlesnayaa.mapsapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658872493014-odv3o72n1poqdt4ksc56o7a86mi1742k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKBCU3IPrmog-oJOQRClyQnEIGxD_Iwl4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MapsApplication</string>
+
+    <string name="no_internet_error">Failed to load data. Please, check Internet connection and try again</string>
+    <string name="try_again_action">Try again</string>
+    <string name="map_hint">Scroll the map to view more points</string>
+    <string name="error_message">Something was wrong</string>
+
+</resources>

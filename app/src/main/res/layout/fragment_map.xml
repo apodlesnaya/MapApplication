@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.example.podlesnayaa.mapsapplication.ui.MapFragment">
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/map_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <RelativeLayout
+        android:id="@+id/description_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/description_height"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/description_margin"
+        android:background="@android:color/background_light">
+
+        <TextView
+            android:id="@+id/title_text"
+            style="@style/MapMarkerTitleTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginStart="@dimen/margin_20"
+            android:layout_marginEnd="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_10"
+            android:layout_marginBottom="@dimen/margin_5"
+            tools:text="title"/>
+
+        <TextView
+            android:id="@+id/description_text"
+            style="@style/MapMarkerDescriptionTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_20"
+            android:layout_marginEnd="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_5"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:layout_below="@id/title_text"
+            android:gravity="center_vertical"
+            tools:text="description"/>
+
+    </RelativeLayout>
+
+</FrameLayout>
